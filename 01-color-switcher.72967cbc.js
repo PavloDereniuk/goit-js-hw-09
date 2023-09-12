@@ -1,0 +1,2 @@
+const t=document.querySelector("button[data-start]"),e=document.querySelector("button[data-stop]"),n=document.querySelector("body");t.addEventListener("click",(function(e){o(),t.setAttribute("disabled","true"),r=setInterval((()=>{o()}),1e3)})),e.addEventListener("click",(function(e){clearInterval(r),t.removeAttribute("disabled")}));let r=0;function o(){n.style.background=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,0)}`}
+//# sourceMappingURL=01-color-switcher.72967cbc.js.map
